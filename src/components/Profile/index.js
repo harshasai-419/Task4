@@ -53,11 +53,11 @@ class Profile extends Component{
                             {data.map(each=>{
                                 return(
                                     <div className='prof-card'>
-                                        <h2><span className='pro-det'>Name </span>: {each.name}</h2>
-                                        <h2><span className='pro-det'>Email </span>: {each.email}</h2>
-                                        <h2><span className='pro-det'>Username </span>: {each.username}</h2>
-                                        <h2><span className='pro-det'>Mobile </span>: {each.mobile}</h2>
-                                        <h2><span className='pro-det'>Location </span>: {each.location}</h2>
+                                        <h2 className="pro-det-head"><span className='pro-det'>Name </span>: {each.name}</h2>
+                                        <h2 className="pro-det-head"><span className='pro-det'>Email </span>: {each.email}</h2>
+                                        <h2 className="pro-det-head"><span className='pro-det'>Username </span>: {each.username}</h2>
+                                        <h2 className="pro-det-head"><span className='pro-det'>Mobile </span>: {each.mobile}</h2>
+                                        <h2 className="pro-det-head"><span className='pro-det'>Location </span>: {each.location}</h2>
                                         
                                     </div>
                                 )
